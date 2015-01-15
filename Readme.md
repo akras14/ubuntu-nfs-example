@@ -1,5 +1,7 @@
 # Example of setting up and mounting Network File System (NFS) across multiple apps
 
+## See it in action
+
 1. Clone this repo
 2. Make sure you have Vagrant and Virtual Box installed
 3. Navigate to this repo in your terminal and run `vagrant up nfs`
@@ -14,3 +16,6 @@
 11. Navigate to `/home/vagrant/shared` and confirm that your file is visible there as well.
 
 There you have it, working NFS setup
+
+## Where is the magic?
+The [server setup is here](bin/nfs.sh) and [client setup is here](bin/app.sh)
